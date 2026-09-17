@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/followups",
+      "schedule": "0 12 * * *"
+    },
+    {
+      "path": "/api/cron/apify-sync",
+      "schedule": "0 13 * * *"
+    }
+  ]
+}
